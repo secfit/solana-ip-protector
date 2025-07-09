@@ -20,7 +20,7 @@ export interface AIAnalysisResponse {
 export class AIAnalysisService {
   private apiEndpoint: string;
 
-  constructor(apiEndpoint: string = 'http://161.97.85.56:5000/api') {
+  constructor(apiEndpoint: string = 'http://localhost:5000/api') {
     this.apiEndpoint = apiEndpoint;
   }
 
