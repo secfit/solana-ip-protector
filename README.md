@@ -55,7 +55,7 @@ The Solana IP Protector revolutionizes academic intellectual property protection
 ```
 ┌─────────────────┐    ┌─────────────────┐    ┌─────────────────┐
 │   Frontend      │    │   Python AI     │    │   Solana        │
-│   React + TS    │◄──►│   Backend       │    │   Blockchain    │
+│   React + TS    │◄──►│   Backend       │◄──►│   Blockchain    │
 │                 │    │   Flask + GPT-4o│    │   Devnet        │
 └─────────────────┘    └─────────────────┘    └─────────────────┘
          │                       │                       │
@@ -180,7 +180,7 @@ pip install flask flask-cors openai python-dotenv
 # 2. Store OpenAI API Key on .env file 
 #    OPENAI_API_KEY=sk-***********
 
-# 3. Start Python backend
+# 3. Terminal 1: Start Python backend
 python backend.py
 
 # 4. Verify backend health
@@ -202,10 +202,10 @@ solana airdrop 2 --url devnet
 cat ~/.config/solana/devnet.json
 
 # 5. Add to .env (development only):
-VITE_SOLANA_PRIVATE_KEY=[1,2,3,4,5...]; // Your 64-byte array
+VITE_SOLANA_PRIVATE_KEY=[123,45,67,89,12,34,56,78,90,...]; // Your 64-byte array
 SOLANA_CLUSTER=devnet
 
-# 6 Start frontend with AI integration
+# 6 Terminal 2: Start frontend with AI integration
 npm run dev
 ```
 
@@ -384,10 +384,6 @@ curl -X POST http://localhost:5000/api/analyze-section \
 - [React TypeScript Best Practices](https://react-typescript-cheatsheet.netlify.app/)
 - [Flask API Development](https://flask.palletsprojects.com/)
 
-### Related Projects
-- [Solana NFT Standards](https://docs.metaplex.com/)
-- [Academic Blockchain Applications](https://scholar.google.com/scholar?q=blockchain+academic+publishing)
-- [IP Protection Technologies](https://www.wipo.int/tech_trends/en/)
 
 ---
 
