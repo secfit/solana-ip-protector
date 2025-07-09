@@ -382,47 +382,7 @@ export const HomePage: React.FC = () => {
             <TransactionHistory transactions={transactions} />
           )}
 
-          {/* Setup Instructions */}
-          <Card title="🚀 Setup Instructions for Real Implementation" className="bg-blue-50 border-blue-200">
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
-              <div>
-                <h4 className="font-semibold text-blue-800 mb-2">🤖 Python AI Backend Setup:</h4>
-                <div className="text-sm text-blue-700 bg-blue-100 p-3 rounded font-mono">
-                  <p>pip install flask flask-cors openai python-dotenv</p>
-                  <p>export OPENAI_API_KEY=your_openai_api_key_here</p>
-                  <p>python backend.py</p>
-                </div>
-              </div>
-              
-              <div>
-                <h4 className="font-semibold text-blue-800 mb-2">⛓️ Real Solana Devnet Setup:</h4>
-                <div className="text-sm text-blue-700 bg-blue-100 p-3 rounded font-mono">
-                  <p>solana-keygen new --outfile devnet.json</p>
-                  <p>solana airdrop 2 --url devnet</p>
-                  <p>cat devnet.json  # Copy the private key array</p>
-                  <p># Add to HomePage.tsx: nftService.setUserKeypair([1,2,3...])</p>
-                </div>
-              </div>
 
-              <div>
-                <h4 className="font-semibold text-blue-800 mb-2">💰 Real Costs:</h4>
-                <div className="text-sm text-blue-700" style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
-                  <p>• AI Analysis: ~$0.02 per section (GPT-4o)</p>
-                  <p>• NFT Creation: ~0.002 SOL per section (~$0.004)</p>
-                  <p>• Total for 5 sections: ~$0.12</p>
-                  <p><strong>Very affordable for real IP protection!</strong></p>
-                </div>
-              </div>
-
-              <div className="bg-blue-100 border border-blue-300 rounded p-3">
-                <p className="text-sm text-blue-800">
-                  <strong>🔗 Current Status:</strong> The app works with simulation mode for testing. 
-                  Follow the setup instructions above to enable real AI analysis and blockchain transactions.
-                  All transactions will be verifiable on Solana Explorer.
-                </p>
-              </div>
-            </div>
-          </Card>
         </div>
       </main>
     </div>
