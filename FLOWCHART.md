@@ -127,3 +127,39 @@ graph TB
     style I fill:#e8f5e8
     style M fill:#f3e5f5
 ```
+
+## 7. Component Interaction Diagram
+
+```mermaid
+graph TD
+    subgraph "React Components"
+        A[HomePage] --> B[SectionUpload]
+        A --> C[WalletConnection]
+        A --> D[TransactionHistory]
+        B --> E[Button]
+        B --> F[Card]
+        C --> G[Badge]
+    end
+    
+    subgraph "Service Layer"
+        H[AIAnalysisService] --> I[Backend API]
+        J[NFTService] --> K[Solana Web3]
+        L[SolanaService] --> K
+    end
+    
+    subgraph "External APIs"
+        M[Flask Backend] --> N[OpenAI API]
+        O[Solana RPC] --> P[Blockchain Network]
+    end
+    
+    B --> H
+    C --> J
+    D --> L
+    I --> M
+    K --> O
+    
+    style A fill:#e3f2fd
+    style H fill:#fff3e0
+    style M fill:#f3e5f5
+    style O fill:#e8f5e8
+```
