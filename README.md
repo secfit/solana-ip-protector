@@ -129,7 +129,7 @@ graph TD
 
 ---
 
-![Blockchain IP Protection](Blockchain_IP_Protection.PNG)
+![Blockchain IP Protection](Blockchain_IP_Protection.png)
 ## Required Dependencies & Installation
 
 ---
