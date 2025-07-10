@@ -97,7 +97,7 @@ src/
 
 ---
 
-## 🔄 Information & Transaction Flow
+## Information & Transaction Flow
 
 ### Data Flow Diagram
 ```mermaid
@@ -126,9 +126,14 @@ graph TD
 6. **Verification** → Transaction recorded on Solana Explorer
 7. **Proof Storage** → Immutable record with timestamp
 
+
 ---
 
-## 📦 Required Dependencies & Installation
+![Blockchain IP Protection](Blockchain_IP_Protection.PNG)
+## Required Dependencies & Installation
+
+---
+
 
 ### System Requirements
 - **Node.js**: 18.0.0 or higher
