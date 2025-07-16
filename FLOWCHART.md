@@ -1,5 +1,5 @@
 #FLOWCHART.md
-# 🔄 Solana IP Protector - System Flowcharts
+# Solana IP Protector - System Flowcharts
 
 ## 1. High-Level System Architecture
 
@@ -128,7 +128,7 @@ graph TB
     style M fill:#f3e5f5
 ```
 
-## 7. Component Interaction Diagram
+## 5. Component Interaction Diagram
 
 ```mermaid
 graph TD
