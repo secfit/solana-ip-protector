@@ -97,6 +97,8 @@ src/
 
 ---
 
+[Watch the Demo](IP_Protection.mp4)
+
 ## Information & Transaction Flow
 
 ### Data Flow Diagram
