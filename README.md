@@ -97,8 +97,7 @@ src/
 
 ---
 
-[Watch the Demo](IP_Protection.mp4)
-[![Watch the demo](Blockchain_IP_Protection.png)](IP_Protection.mp4)
+[Watch the Demo](IP_Protection.gif)
 
 ## Information & Transaction Flow
 
