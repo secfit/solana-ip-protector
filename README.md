@@ -98,7 +98,7 @@ src/
 ---
 
 <p align="center">
-  <img src="IP_Protection.gif" alt="IP Protection Demo" width="600">
+  <img src="IP_Protection.gif" alt="IP Protection Demo" width="900" hight="600">
 </p>
 
 ## Information & Transaction Flow
